@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Admission System</title>
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="/Scripts/jquery-ui-1.12.1/jquery-ui.min.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link href="/Content/fonts.css" rel="stylesheet" />
+
+
+</head>
+<body style="">
+
+    <div id="header" class="container-fluid">
+        <div class="row-fluid">
+            <div class="col-sm-3" style="padding: 5px;">
+                <a href="/">
+                    <img src="/Content/images/logo_transparent.png" class="img-responsive" />
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                            <li><a href="/Applicant/Details/31488">Home</a></li>
+
+                    
+                    <li><a href="http://www.wiut.uz">WIUT Website</a></li>
+                    <li><a href="/Home/Contact">Contacts & Information</a></li>
+                    <li><a href="/Home/FeedBack">Feedback</a></li>
+                    <li><a href="/Home/MockExam">Mock Entrance Exam</a></li>
+
+
+
+
+
+
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                        <li><a>Asfarukh Tashbaev</a></li>
+                        <li><a href="/Account/LogOff"><span class="glyphicon glyphicon-log-out"></span>Log Out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="col-sm-12">
+            <div id="mainContainer" class="main-wrapper" style="margin-bottom: 20px;">
+                
+                <div class="row-fluid">
+
+                                    <div class="col-sm-12">
+                                        
+
+
+
+<div class="row">
+    <div class="col-sm-12">
+
+
+        <h2>Asfarukh Tashbaev (00031488)</h2>
+
+        <!-- Centered Tabs -->
+        <ul class="nav nav-tabs">
+                <li><a href="/Applicant/Details/31488">Education Information</a></li>
+                            <li><a href="/UploadedDocuments/Details/31488">Upload Documents</a></li>
+                            <li><a href="/Examinations/Index/31488">Select Exam Date</a></li>
+            <li class="active"><a href="/ApproveToExam/RegistrationStatus/31488">Check status</a></li>
+        </ul>
+        <br />
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="row">
+                    <div class="col-sm-12 text-center">
+                        <img class="img-thumbnail" src="/DocumentImages/31488/photo.jpeg" width="100" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9">
+                <div style="border-left: 1px solid #DDDDDD; padding-left: 15px;">
+                        <fieldset>
+                            <legend>Examination Payment Status</legend>
+                                <div class="alert alert-success">
+                                    <p>Examination is paid!</p>
+                                    <p>Your application will be considered for the selected exam</p>
+
+                                    
+                                </div>
+                            <div class="alert alert-info">
+                                <p>Total paid:  200 000</p>
+                                <p>Total used:  200 000</p>
+                                <p>Balance:   0</p>
+                            </div>
+                            <div class="alert alert-info">
+                                <p><b>Info:</b></p>
+                                <p>Information about your payment on the Check status section appears within 15-30 minutes.</p>
+                                <p>If your balance is positive, you may refund by filling in the Refund Request Form. The link to it can be found in Contacts & Information section.</p>
+                            </div>
+                        </fieldset>
+                        <br />
+                        <fieldset>
+                            <legend>Status</legend>
+                            <p>Dear Applicant, your math exam registration was approved. Further details have been sent to you via email.</p>
+                        </fieldset>
+                        <br />
+                                            <fieldset>
+                            <legend>Marks</legend>
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th>Examination Name</th>
+                                        <th>Examination Date</th>
+                                        <th>Room Name</th>
+                                        
+                                            <th>Math Score Pts</th>
+                                            <th>Math Score %</th>
+
+                                        <!--
+                                        <th>Logic Score</th>
+                                        -->
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                        <tr>
+                                            <td>
+                                                Math Entrance Exam 10th April, 2021
+                                            </td>
+                                            <td>
+                                                10/04/2021
+                                            </td>
+                                            <td>
+                                                Sport hall 
+                                            </td>
+                                            
+                                                <td>
+                                                    45 
+                                                </td>
+                                                <td>
+
+                                                    64% 
+                                                </td>
+                                            
+                                            <!--
+                                                <td>
+                                                    0.00
+                                                </td>
+                                                -->
+                                        </tr>
+                                </tbody>
+
+                            </table>
+                        </fieldset>
+                        <br />
+                    <fieldset>
+                        <legend>Condition Status</legend>
+                        <div class="row">
+                            <div class="col-sm-2">
+                                Status:
+                            </div>
+                            <div class="col-sm-10">
+To be confirmed                            </div>
+                        </div>
+                    </fieldset>
+                    
+
+
+                        <div class="panel panel-info">
+                            <div class="panel-heading">Messages sent from Admission System</div>
+                            <div class="panel-body">
+                                <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_138834">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_138834" aria-expanded="false" aria-controls="collapse_138834">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>138834</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>28/04/2021 16:14:51 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_138834" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_138834">
+                                                <div class="panel-body">
+                                                    <p>Dear Applicant,</p>
+<p>Your WIUT math entrance exam result has been released.&nbsp;</p>
+<p>Best Wishes,</p>
+<table border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td>
+<div><strong><span face="Calibri,sans-serif" size="2" style="color: #044efa;"><span face="Arial,sans-serif" color="#083FA4">Admissions&nbsp; Office</span></span></strong></div>
+</td>
+</tr>
+<tr height="31">
+<td valign="top">
+<div><strong><span face="Calibri,sans-serif" size="2" style="color: #044efa;"><span face="Arial,sans-serif" color="#083FA4">Westminster International University in Tashkent</span></span></strong></div>
+</td>
+</tr>
+<tr height="50">
+<td>
+<div><strong><span face="Calibri,sans-serif" size="2" style="color: #044efa;"><span face="Arial,sans-serif" color="#083FA4">12, Istiqbol str., Tashkent 100047; +998 71 2387460 ext 486, 521, 533</span><span face="Arial,sans-serif" color="#083FA4"><br /></span><a href="http://www.westminster.uz/" target="_blank"><span face="Arial,sans-serif" color="#497BAD" style="color: #044efa;">westminster.uz</span></a><span face="Arial,sans-serif" color="#083FA4">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a href="https://www.facebook.com/wiut.uz" target="_blank"><span face="Arial,sans-serif" color="#497BAD" style="color: #044efa;">facebook.com</span></a><span face="Arial,sans-serif" color="#083FA4">&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;</span><a href="https://www.linkedin.com/company/westminster-international-university-in-tashkent" target="_blank"><span face="Arial,sans-serif" color="#497BAD" style="color: #044efa;">linkedin.com</span></a></span></strong></div>
+</td>
+</tr>
+<tr height="31">
+<td>
+<div><strong><span face="Calibri,sans-serif" size="2" style="color: #044efa;"><span face="Arial,sans-serif" color="#083FA4">Blending the Traditions of British Education with the Cultural Heritage of Uzbekistan</span></span></strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_130104">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_130104" aria-expanded="false" aria-controls="collapse_130104">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>130104</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>23/03/2021 09:29:45 AM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_130104" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_130104">
+                                                <div class="panel-body">
+                                                    <p>Dear Applicant,</p>
+                <p>Your payment for the examination on 10 April 2021 has been confirmed by the accountants department of WIUT. Please note that your registration is also a subject to consistency of documents submitted.</p>
+                <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129928">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129928" aria-expanded="false" aria-controls="collapse_129928">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129928</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>20/03/2021 17:25:11 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129928" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129928">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 10 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 20 March 2021 17:25</p>
+                        <p>Deadline: 25 March 2021 17:25</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129927">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129927" aria-expanded="false" aria-controls="collapse_129927">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129927</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>20/03/2021 17:25:05 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129927" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129927">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 20 March 2021 17:25</p>
+                        <p>Deadline: 25 March 2021 17:25</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129521">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129521" aria-expanded="false" aria-controls="collapse_129521">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129521</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 18:23:32 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129521" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129521">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 10 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 18:23</p>
+                        <p>Deadline: 21 March 2021 18:23</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129513">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129513" aria-expanded="false" aria-controls="collapse_129513">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129513</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 17:22:25 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129513" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129513">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 17:22</p>
+                        <p>Deadline: 21 March 2021 17:22</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129511">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129511" aria-expanded="false" aria-controls="collapse_129511">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129511</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 17:17:47 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129511" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129511">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 17:17</p>
+                        <p>Deadline: 21 March 2021 17:17</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129503">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129503" aria-expanded="false" aria-controls="collapse_129503">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129503</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 17:03:58 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129503" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129503">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 17:03</p>
+                        <p>Deadline: 21 March 2021 17:03</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129502">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129502" aria-expanded="false" aria-controls="collapse_129502">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129502</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 17:03:06 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129502" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129502">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 17:03</p>
+                        <p>Deadline: 21 March 2021 17:03</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129501">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129501" aria-expanded="false" aria-controls="collapse_129501">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129501</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 17:02:57 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129501" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129501">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 17:02</p>
+                        <p>Deadline: 21 March 2021 17:02</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129500">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129500" aria-expanded="false" aria-controls="collapse_129500">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129500</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 17:02:47 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129500" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129500">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 17 March 2021 17:02</p>
+                        <p>Deadline: 21 March 2021 17:02</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129355">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129355" aria-expanded="false" aria-controls="collapse_129355">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129355</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 12:49:45 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129355" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129355">
+                                                <div class="panel-body">
+                                                    <p>Dear Applicant,</p>
+                <p>Your payment for the examination on 10 April 2021 has not been fully received by the deadline and your registration has been deleted. To select a new examination please log in to the WIUT admission system and follow the exam registration steps again.</p>
+                <p>In case if you have made a partial payment you can use the balance for future exam registrations or refund your money using the refund procedure published in Contacts and Information section in <a href='http://admission.wiut.uz'>admission.wiut.uz</a>.</p>
+                <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_129352">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_129352" aria-expanded="false" aria-controls="collapse_129352">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>129352</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>17/03/2021 12:49:42 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_129352" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_129352">
+                                                <div class="panel-body">
+                                                    <p>Dear Applicant,</p>
+                <p>Your examination payment deadline is <b>17 March 2021 11:48</b>.</p>
+                <p>In case if payment is not received by the indicated deadline WIUT administration will cancel your registration on the exam.</p>
+                <p>After the cancelation you may re-register on the available WIUT maths entrance exam, note that registration confirmation is subject to payment and integrity of documents.</p>
+                <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_128278">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_128278" aria-expanded="false" aria-controls="collapse_128278">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>128278</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>12/03/2021 11:48:48 AM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_128278" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_128278">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 10 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 12 March 2021 11:48</p>
+                        <p>Deadline: 17 March 2021 11:48</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_128277">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_128277" aria-expanded="false" aria-controls="collapse_128277">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>128277</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>12/03/2021 11:48:40 AM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_128277" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_128277">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 17 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 12 March 2021 11:48</p>
+                        <p>Deadline: 17 March 2021 11:48</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_127286">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_127286" aria-expanded="false" aria-controls="collapse_127286">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>127286</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>09/03/2021 12:03:21 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_127286" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_127286">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 10 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 09 March 2021 12:03</p>
+                        <p>Deadline: 12 March 2021 12:03</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_127201">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_127201" aria-expanded="false" aria-controls="collapse_127201">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>127201</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>09/03/2021 11:04:27 AM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_127201" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_127201">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 10 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 09 March 2021 11:04</p>
+                        <p>Deadline: 12 March 2021 11:04</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_127191">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_127191" aria-expanded="false" aria-controls="collapse_127191">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>127191</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>09/03/2021 11:00:11 AM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_127191" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_127191">
+                                                <div class="panel-body">
+                                                    <p>Dear applicant,</p>
+                        <p>You have selected the exam on 10 April 2021. Payment for the exam must be made within 72 hours after you have selected the date. In order to receive a confirmation letter about your registration you must fulfill the payment and upload all required documents. Note that without confirmation and payment you cannot attend the exam.</p>
+                        <p>Date registered: 09 March 2021 11:00</p>
+                        <p>Deadline: 12 March 2021 11:00</p>
+                        <p>Payment instructions can be found here: <a href='http://admission.wiut.uz//Content/Manuals/Математика_имтиҳони_бўйича_тўлов_кўрсатмалари_Uzbek.pdf'>Uzbek</a>, <a href='http://admission.wiut.uz//Content/Manuals/Инструкция_по_оплате_за_экзамен_по_математике_Russian.pdf'>Russian</a>, <a href='http://admission.wiut.uz//Content/Manuals/Maths_Exam_Payment_Instructions_English.pdf'>English</a></p>
+                        <p>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default">
+                                            <div class="panel-heading" role="tab" id="heading_126646">
+                                                <h4 class="panel-title">
+                                                    <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                                       href="#collapse_126646" aria-expanded="false" aria-controls="collapse_126646">
+                                                        <span><i class="glyphicon glyphicon-envelope"></i>126646</span>
+                                                        <span class="fa-stack fa-2x" style="float: right"><i class="glyphicon glyphicon-time"></i>23/02/2021 23:01:03 PM</span>
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapse_126646" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading_126646">
+                                                <div class="panel-body">
+                                                    Dear Asfarukh Tashbaev,
+
+<br><br>We have received your WIUT Application form through WIUT Admission System. Please login to the system, accessible through the link  http://admission.wiut.uz/, using the username and password details provided below to proceed with your application to WIUT.
+
+<br><br>Username: 00031488
+<br>Password: cELmgTyb
+
+<br><br>Note that due to administrative reasons you cannot change your username or password, and therefore we ask you to keep these details securely as you will need them each time you access the system. <span style='color:red;'>Once logged in to the system you must follow all the required steps in order to complete and submit your application.</span>
+
+<br><br>THIS IS AN AUTOMATICALLY GENERATED MESSAGE. PLEASE DO NOT REPLY TO THIS EMAIL.
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+                                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="col-sm-12 text-center small" style="margin-top: 10px; margin-bottom: 10px;">
+                    &copy; 2021 - Westminster International University in Tashkent
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    
+    <script src="/bundles/jquery?v=jZV4wnmtUcC6YhCM7wNJKVt_Kc4uUnBcS8PwByWKyMc1"></script>
+
+    
+    <script src="/Scripts/jquery-ui-1.12.1/jquery-ui.js"></script>
+    <script src="/bundles/modernizr?v=tlOyHN1yAYnZAg8SDgQ4Gf2bOQgIbk6Ory1-yC2rb2o1"></script>
+
+    <script src="/bundles/bootstrapjs?v=YMnhCkI8fx3p7VRZMB86WhaMIMUeiITsGzFJH1sOcaQ1"></script>
+
+    <script src="/Scripts/jquery.unobtrusive-ajax.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lightgallery.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-fullscreen.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-thumbnail.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-video.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-autoplay.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-zoom.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-hash.js"></script>
+    <script src="/Content/lightGallery-master/dist/js/lg-pager.js"></script>
+    <script src="/Content/lightGallery-master/lib/jquery.mousewheel.min.js"></script>
+    
+
+
+    
+    <script type="text/javascript">
+        
+    </script>
+    
+</body>
+</html>
+
+
+<style>
+    html {
+        position: relative;
+        min-height: 100%;
+    }
+
+    body {
+        /* Margin bottom by footer height */
+        margin-bottom: 100px;
+    }
+
+    /* #footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        margin: 0 auto -5px;*/
+    /* Set the fixed height of the footer here */
+    /*height: 55px;*/
+    /*}*/
+    .footer {
+        /*background-color: #f5f5f5;*/
+        background: #196db5;
+        bottom: 0;
+        /*height: 60px;*/
+        position: absolute;
+        width: 100%;
+        color: #fff;
+    }
+
+    .nav-tabs > li > a {
+        margin-right: 0px;
+    }
+
+    #footer div {
+    }
+
+    ul.main-navigation-menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        ul.main-navigation-menu li {
+            border: none;
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+    div#header {
+        min-height: 70px;
+    }
+
+    .field-validation-valid {
+        display: none;
+    }
+
+    h2 {
+        font-family: HelveticaNeueCyr,Helvetica,Arial,sans-serif;
+        font-weight: 300;
+    }
+
+    #header, #footer {
+        background: #196db5;
+    }
+</style>
